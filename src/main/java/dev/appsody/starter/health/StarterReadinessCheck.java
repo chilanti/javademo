@@ -19,7 +19,7 @@ public class StarterReadinessCheck implements HealthCheck {
     @Override
     public HealthCheckResponse call() {
         boolean up = isReady();
-        return HealthCheckResponse.named(this.getClass().getSimpleName()+" Changed3").state(up).build();
+        return HealthCheckResponse.named(this.getClass().getSimpleName()+" Changed4").state(up).build();
     }
     
 }
